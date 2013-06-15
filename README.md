@@ -20,4 +20,4 @@ What about "YesXXX"?
 
 - Using [TypeScript](http://www.typescriptlang.org/) and [LESS](http://www.lesscss.org/) for implementation, no external dependencies, modular structure (including CSS rules) and clear code base make it simple to use in your own projects and customization.
 
-For "how to use" information take a look at comprehensive [example]().
+For "how to use" information take a look at comprehensive [example](http://resnyanskiy.github.io/js.tree/index.html).
