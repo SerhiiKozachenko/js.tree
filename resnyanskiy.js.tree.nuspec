@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>resnyanskiy.js.tree</id>
+    <version>1.0.0</version>
+    <authors>Resnyanskiy</authors>
+    <projectUrl>https://github.com/resnyanskiy/js.tree</projectUrl>
+    <title>TreeView component for web-pages</title>
+    <description>Super simple open-source TreeView component for web-pages based on HTML, CSS and JavaScript, implemented with TypeScript and LESS.</description>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="resnyanskiy.js.tree.ts" target="content\Scripts" />
+    <file src="resnyanskiy.js.tree.less" target="content\Content" />
+    <file src="images\*.*" target="content\Content\images" exclude="images\*.pdn" />
+  </files>
+</package>
