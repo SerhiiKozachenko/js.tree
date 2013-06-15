@@ -30,7 +30,7 @@ function onBranchExpandHandler(id: number) {
 
   setTimeout(function() {
     var XHR: XMLHttpRequest = new XMLHttpRequest();
-    XHR.open("GET", "/data.json", true);
+    XHR.open("GET", "data.json", true);
     XHR.onreadystatechange = function(ev: Event) {
       if(this.readyState == 4) {
         var data: Resnyanskiy.ITreeNodeDataModel[] = (<Resnyanskiy.ITreeNodeDataModel[]>JSON.parse(this.responseText));

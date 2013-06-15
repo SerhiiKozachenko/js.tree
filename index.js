@@ -25,7 +25,7 @@ function onBranchExpandHandler(id) {
     var tree = this;
     setTimeout(function () {
         var XHR = new XMLHttpRequest();
-        XHR.open("GET", "/data.json", true);
+        XHR.open("GET", "data.json", true);
         XHR.onreadystatechange = function (ev) {
             if(this.readyState == 4) {
                 var data = (JSON.parse(this.responseText));
